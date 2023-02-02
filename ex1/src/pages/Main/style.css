@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+form {
+  width: 320px;
+  padding: 30px 0;
+
+  text-align: center;
+
+  border: 1px solid silver;
+  border-radius: 8px;
+}
+
+form h1 {
+  margin-bottom: 50px;
+}
+
+form input,
+form button {
+  box-sizing: border-box;
+  width: 85%;
+  height: 40px;
+
+  border-radius: 4px;
+}
+
+form input {
+  margin-bottom: 10px;
+  padding-left: 5px;
+
+  border: 1px solid silver;
+}
+
+form button {
+  margin-top: 40px;
+
+  color: white;
+  background-color: purple;
+  border: 1px solid transparent;
+  transition: filter .25s;
+}
+
+form button:hover {
+  cursor: pointer;
+  filter: opacity(0.9);
+}
