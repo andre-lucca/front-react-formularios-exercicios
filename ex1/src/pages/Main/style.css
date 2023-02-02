@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -35,6 +39,38 @@ form input {
   padding-left: 5px;
 
   border: 1px solid silver;
+
+  transition: border-color .25s;
+}
+
+form input:focus {
+  outline: none;
+  border-color: gray;
+}
+
+.password-input-container {
+  width: 85%;
+  margin: auto;
+
+  position: relative;
+}
+
+.password-input-container input {
+  width: 100%;
+  margin: auto;
+  padding-right: 45px;
+}
+
+.password-input-container img {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+
+  height: 30px;
+}
+
+.password-input-container img:hover {
+  cursor: pointer;
 }
 
 form button {
