@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+
+  width: 1440px;
+  height: 900px;
+  margin: auto;
+
+  border: 1px solid silver;
+}
+
+.success-message {
+  width: 450px;
+  margin: auto;
+
+  text-align: center;
+
+  color: rgb(11, 47, 73);
+}
+
+.success-message img {
+  width: 100%;
+}
+
+form {
+  width: 480px;
+  margin: auto;
+
+  text-align: center;
+}
+
+form h1 {
+  margin-bottom: 30px;
+}
+
+form input,
+form button {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+}
+
+form input {
+  margin-bottom: 16px;
+  padding: 15px;
+
+  font-size: 16px;
+
+  outline: none;
+  border: 1px solid rgb(232, 232, 232);
+  background-color: rgb(253, 250, 250);
+}
+
+.pw-input-container {
+  position: relative;
+}
+
+.pw-input-container img {
+  height: 35px;
+
+  position: absolute;
+  top: 7.5px;
+  right: 15px;
+}
+
+.pw-input-container img:hover {
+  cursor: pointer;
+}
+
+.pw-input-container input {
+  margin: 0;
+  padding-right: 62px;
+}
+
+.error-message {
+  height: 12px;
+
+  font-size: 12px;
+  text-align: left;
+
+  color: red;
+}
+
+form button {
+  font-weight: 700;
+  text-transform: uppercase;
+
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: filter .25s;
+}
+
+form button:hover {
+  cursor: pointer;
+
+  filter: brightness(0.9);
+}
+
+form button:first-of-type {
+  margin-bottom: 10px;
+
+  background-color: rgb(42, 77, 119);
+}
+
+form button:last-of-type {
+  margin-bottom: 96px;
+
+  background-color: rgba(251, 6, 21, 0.65)
+}
