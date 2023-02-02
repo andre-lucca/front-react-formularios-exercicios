@@ -1,11 +1,10 @@
-import { BaseSyntheticEvent, SyntheticEvent, useState } from 'react'
+import { SyntheticEvent, useState } from 'react'
 import './style.css'
 
 import openEyeImg from '../../assets/open-eye.svg'
 import closeEyeImg from '../../assets/close-eye.svg'
 
 function Main() {
-  const [formState, setFormState] = useState({})
   const [isPwVisible, setPassWordVisibility] = useState(false)
 
   function handleSubmit(event: SyntheticEvent) {
